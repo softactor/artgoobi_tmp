@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+body{
+    background: #f8f8f8;
+}
+
+/*Common Css*/
+/* Menue Parts starts Here*/
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    padding-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    color: #777777
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.search{
+   position: absolute;
+   top: 50px;
+   right: 250px;
+}
+.search i{
+    position: absolute;
+    top: 12px;
+    right: 16px;
+ }
+ 
+
+
+/* Menue Parts ends  Here*/
+
+/* bunner Parts starts  Here*/
+
+/*   gelley part starts here */
+
+#blank{
+    margin-top: 200px;
+}
+
+.blank_box{
+   height: 550px;
+   background: white;
+}
+.blank-txt p{
+padding-top: 20px;
+font-size: 16px;
+font-weight:bold;
+color: #636363;
+}
+.blank-txt p span{
+    font-weight: 500;
+    font-size: 14px;
+    }
+.balnk-icon{
+    float: right;
+    margin-top: 20px;
+}
+.balnk-icon img{
+    height: 40px;
+    width: 160px;
+}
+.Gellery img{
+    width: 1140px;
+}
+
+.profile-part{
+    position: absolute;
+    left: 40px;
+    top: 240px;
+
+}
+.profile-part h1{
+    font-size: 22px;
+    color: #0087ad;
+    padding-top: 20px;
+}
+.profile-part h5{
+    font-size: 17px;
+    color: #959595;
+}
+.profile-part p{
+    padding-top: 30px;
+    font-size: 17px;
+    color: #959595;
+    
+}

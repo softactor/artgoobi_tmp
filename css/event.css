@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+body{
+    background: #f8f8f8;
+}
+
+/*Common Css*/
+/* Menue Parts starts Here*/
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    padding-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    color: #777777
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.search{
+   position: absolute;
+   top: 50px;
+   right: 250px;
+}
+.search i{
+    position: absolute;
+    top: 12px;
+    right: 16px;
+ }
+ 
+
+
+/* Menue Parts ends  Here*/
+
+/* bunner Parts starts  Here*/
+
+/* event part starts here */
+#event{
+    margin-top: 200px;
+}
+.event-txt h1{
+    text-align: center;
+    color :#f9ad81;
+    letter-spacing: 18px;
+}
+.event-more{
+    margin-top: 40px;
+}
+.event-more h1{
+    color: #0087ad;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.event-more h6{
+    color: #959595;
+    font-size: 16px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.event-more h3{
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.event-more p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.event-more h5{
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.btn-event{
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.btn-event a{
+    color: #f9ad81;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+/* event part ends here */
